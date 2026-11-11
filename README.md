@@ -1,48 +1,74 @@
-Skillwill Portfolio
-A responsive personal portfolio website built with HTML5, CSS3, and vanilla JavaScript.
+# Skillwill Portfolio — Project Plan
 
-Features
+## 1. Project Overview
 
-- Semantic HTML5 structure
-- Responsive layout for desktop, tablet, and mobile
-- CSS Flexbox and Grid
-- Interactive mobile navigation
-- Contact form with client-side validation
-- Form validation feedback
-- Smooth scrolling
-- Organized CSS architecture
+The goal of this project is to develop a responsive and
+interactive personal portfolio website using HTML5,
+CSS3, and vanilla JavaScript.
 
-Technologies
+## 2. Project Objectives
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Git & GitHub
+- Build a semantic HTML5 website.
+- Create responsive layouts for desktop, tablet, and mobile.
+- Use CSS Flexbox and Grid.
+- Implement interactive navigation, a projects slider,
+  and contact form validation.
+- Maintain version control using Git and GitHub.
+- Test and optimize the website.
+- Prepare project documentation and presentation.
 
-Project Structure
-Skillwill-portfolio/
-├── index.html
-├── css/
-│ ├── style.css
-│ ├── hero.css
-│ ├── about.css
-│ ├── project.css
-│ ├── contact.css
-│ ├── footer.css
-│ └── responsive.css
-├── js/
-│ └── script.js
-└── README.md
+## 3. Development Stages
 
-Getting Started
+| Stage | Task                                 |
+| ----- | ------------------------------------ |
+| 1     | Project setup and Git initialization |
+| 2     | HTML5 structure and content          |
+| 3     | CSS styling and responsive layout    |
+| 4     | JavaScript functionality             |
+| 5     | Testing and code optimization        |
+| 6     | Documentation and presentation       |
 
-1. Clone the repository.
-2. Open the project folder in VS Code.
-3. Open index.html using Live Server.
+## 4. Required Resources
 
-No additional dependencies are required.
+- Visual Studio Code
+- HTML5, CSS3, JavaScript
+- Git and GitHub
+- Google Chrome DevTools
+- Live Server extension
 
-Contact Form
-The contact form includes client-side validation for name, email, and message fields.
+## 5. Development Methods
 
-This is a demonstration form. Messages are not sent to a server.
+- Incremental development
+- Modular CSS architecture
+- Semantic HTML structure
+- Responsive design using media queries
+- Feature-based Git commits
+- Manual browser testing
+
+## 6. Risks and Mitigation
+
+| Risk                    | Mitigation                     |
+| ----------------------- | ------------------------------ |
+| Layout issues on mobile | Test multiple screen sizes     |
+| JavaScript errors       | Use DevTools Console           |
+| Merge conflicts         | Commit small changes regularly |
+| Broken file references  | Verify file names and paths    |
+| Time constraints        | Prioritize required features   |
+
+## 7. Testing Strategy
+
+- Test desktop, tablet, and mobile layouts.
+- Verify navigation links.
+- Test mobile menu functionality.
+- Test slider navigation and indicators.
+- Validate contact form inputs.
+- Check browser console for errors.
+- Review Git commit history.
+
+## 8. Deliverables
+
+- Responsive portfolio website
+- GitHub repository
+- README.md documentation
+- Project plan
+- Final presentation
