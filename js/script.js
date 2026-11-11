@@ -77,3 +77,65 @@ function showFeedback(message, type) {
   formFeedback.classList.remove("success", "error");
   formFeedback.classList.add(type);
 }
+
+const projectSlider = document.querySelector(".project-slider");
+
+if (projectSlider) {
+  const slides = Array.from(projectSlider.querySelectorAll(".project-card"));
+
+  const prevButton = projectSlider.querySelector(".slider-prev");
+  const nextButton = projectSlider.querySelector(".slider-next");
+  const dotsContainer = projectSlider.querySelector(".slider-dots");
+  const sliderStatus = projectSlider.querySelector(".slider-status");
+
+  let currentSlide = 0;
+
+  // Create navigation dots
+  slides.forEach((slide, index) => {
+    const dot = document.createElement("button");
+
+    dot.type = "button";
+    dot.className = "slider-dot";
+    dot.setAttribute("aria-label", `Go to project ${index + 1}`);
+
+    dot.addEventListener("click", () => {
+      showSlide(index);
+    });
+
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll(".slider-dot");
+
+  function showSlide(index) {
+    currentSlide = (index + slides.length) % slides.length;
+
+    slides.forEach((slide, slideIndex) => {
+      const isActive = slideIndex === currentSlide;
+
+      slide.classList.toggle("active", isActive);
+      slide.setAttribute("aria-hidden", String(!isActive));
+    });
+
+    dots.forEach((dot, dotIndex) => {
+      const isActive = dotIndex === currentSlide;
+
+      dot.classList.toggle("active", isActive);
+      dot.setAttribute("aria-pressed", String(isActive));
+    });
+
+    sliderStatus.textContent = `Project ${currentSlide + 1} of ${slides.length}`;
+  }
+
+  if (slides.length > 0) {
+    prevButton.addEventListener("click", () => {
+      showSlide(currentSlide - 1);
+    });
+
+    nextButton.addEventListener("click", () => {
+      showSlide(currentSlide + 1);
+    });
+
+    showSlide(0);
+  }
+}
