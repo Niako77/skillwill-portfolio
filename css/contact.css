@@ -80,3 +80,10 @@
 #form-feedback:empty {
   display: none;
 }
+#form-feedback.success {
+  color: #15803d;
+}
+
+#form-feedback.error {
+  color: #dc2626;
+}
