@@ -19,16 +19,14 @@ CSS3, and vanilla JavaScript.
 
 ## 3. Development Stages
 
-| Stage | Task                                 | Estimated Duration |
-| ----- | ------------------------------------ | ------------------ |
-| 1     | Project setup and Git initialization | 1 day              |
-| 2     | HTML5 structure and content          | 1 day              |
-| 3     | CSS styling and responsive layout    | 2 days             |
-| 4     | JavaScript functionality             | 1 day              |
-| 5     | Testing and code optimization        | 1 day              |
-| 6     | Documentation and presentation       | 1 day              |
-
-Total estimated duration: 7 days.
+| Stage | Task                                 |
+| ----- | ------------------------------------ |
+| 1     | Project setup and Git initialization |
+| 2     | HTML5 structure and content          |
+| 3     | CSS styling and responsive layout    |
+| 4     | JavaScript functionality             |
+| 5     | Testing and code optimization        |
+| 6     | Documentation and presentation       |
 
 ## 4. Required Resources
 
