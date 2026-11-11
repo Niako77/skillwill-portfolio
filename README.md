@@ -26,13 +26,12 @@ Skillwill-portfolio/
 │ ├── style.css
 │ ├── hero.css
 │ ├── about.css
-│ ├── projects.css
+│ ├── project.css
 │ ├── contact.css
 │ ├── footer.css
 │ └── responsive.css
 ├── js/
 │ └── script.js
-├── assets/
 └── README.md
 
 Getting Started
